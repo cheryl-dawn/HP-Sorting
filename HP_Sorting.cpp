@@ -2,10 +2,10 @@
 
 int main () {
 
-    int gryffindor == 0;
-    int hufflepuff == 0;
-    int ravenclaw == 0;
-    int slytherin == 0;
+    int gryffindor = 0;
+    int hufflepuff = 0;
+    int ravenclaw = 0;
+    int slytherin = 0;
 
     int answer1;
     int answer2;
