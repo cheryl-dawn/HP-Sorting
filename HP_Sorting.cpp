@@ -12,10 +12,11 @@ int main () {
     int answer3;
     int answer4;
 
+    //Title 
     std::cout << "The Sorting Hat Quiz!\n" << "\n" << "\n";
 
-    std::cout << "Q1) When I'm dead, I want people to remember me as: \n";
-    std::cout << "\n";
+    //Question 1
+    std::cout << "Q1) When I'm dead, I want people to remember me as: \n" << "\n";
     std::cout << "1) The Good\n";
     std::cout << "2) The Great\n";
     std::cout << "3) The Wise\n";
@@ -35,5 +36,10 @@ int main () {
         std::cout << "Invalid input.";
     }
 
+    //Question 2
+    std::cout << "Q2) Dawn or Dusk?\n" << "\n";
+    std::cout << "1) Dawn\n";
+    std::cout << "2) Dusk\n" << "\n";
 
+    std::cin >> answer2;
 }
